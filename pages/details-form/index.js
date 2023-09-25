@@ -1,15 +1,15 @@
 import Head from 'next/head';
 import styles from '../../styles/Home.module.css';
 
-export default function Test() {
+export default function DetailsForm() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          test <a href="https://nextjs.org">Next.js!</a>
+          Details Form. made by <a href="https://nextjs.org">Next.js!</a>
         </h1>
       </main>
-      <button href="/home" class="btn btn-primary">
+      <button href="../" class="btn btn-primary">
         test btn
       </button>
 
